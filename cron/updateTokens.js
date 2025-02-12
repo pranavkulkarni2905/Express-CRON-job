@@ -27,7 +27,7 @@ const updateAuthTokens = async () => {
 // Schedule the job to run every hour
 cron.schedule('0 * * * *', updateAuthTokens, {
     scheduled: true,
-    timezone: "Asia/Kolkatas"
+    timezone: "Asia/Kolkata"
 });
 
 module.exports = updateAuthTokens;
